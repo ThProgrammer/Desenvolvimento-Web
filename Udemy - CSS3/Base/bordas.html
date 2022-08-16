@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Bordas CSS</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+
+            #topo {
+                /* Para uma borda funcionar é preciso definir sua espessura, estilo e cor! */
+
+                border: 5px solid blue; 
+
+            }
+            
+            .conteudo {
+
+                /* É possível definir cada face da borda com suas próprias 
+                características */
+                
+				border-color: red green blue yellow;
+                border-width: 20px 5px 10px 15px;
+                border-style: groove solid dashed outset;
+
+                /* link com vários estilos de borda: 
+                https://www.w3schools.com/css/css_border.asp */
+			}
+
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div id="topo"> 
+            <h2>Para uma borda funcionar é preciso definir sua espessura, estilo e cor!</h2>
+        </div> 
+        
+        <br>
+
+        <div class="conteudo"> 
+            <h3>É possível definir cada face da borda com suas próprias 
+                características</h3>
+
+            <p>Link com vários estilos de borda: 
+               <a href="https://www.w3schools.com/css/css_border.asp">https://www.w3schools.com/css/css_border.asp</a> </p>
+
+        </div>
+
+
+    </body>
+</html>
