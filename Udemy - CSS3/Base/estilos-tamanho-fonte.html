@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+
+            .negrito {
+
+                font-weight: 700;
+
+            }
+
+            .italic {
+
+                font-style: italic;
+
+            }
+
+            .line{
+                text-decoration: line-through;
+            }
+
+            .text {
+                font: bold 16px "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+            }
+
+
+            div{ /*Container pai*/
+                font-size: 20px    /*Tamanho do container pai*/ 
+            }
+
+            .tamanho { /*filho*/
+                font-size: 35px; /*Tamanho do filho: tem prioridade sobre o tamanho do pai*/
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 class="negrito">Texto</h1>
+
+        <hr>
+
+        <div> <!--Pai-->
+            <p class="tamanho"> Lorem, ipsum dolor sit amet consectetur.</p><!--Filho-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <hr>
+
+        <p class="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur error explicabo enim labore sint harum modi commodi alias. Eos quis molestias nobis iusto mollitia laudantium vitae ad fuga reprehenderit?</p>
+        <p class="line">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, animi repellat. </p>
+        <p class="text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, cum alias cumque accusamus eveniet nam harum fugit quos nihil dolorem magni laudantium molestias veritatis id voluptatem corrupti ipsam excepturi consequuntur.</p>
+    
+    </body>
+</html>
