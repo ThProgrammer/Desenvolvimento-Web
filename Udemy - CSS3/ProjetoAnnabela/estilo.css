@@ -1,0 +1,42 @@
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    background-image: url(imagens/fundo.png);
+}
+
+#principal{
+    display: block;
+    width: 900px;
+    /* border: 1px solid red; */
+}
+
+#menu {
+    background: #C5C5B2;
+    padding: 18px;
+}
+
+a {
+    font-weight: bold;
+    color: #4B566A;
+    text-decoration: none; /* Para tirar o sublinhado e cor do link */
+    padding: 5px;
+}
+
+h3 {
+    color: #828271;
+}
+
+.conteudo {
+
+    background: #E8E8D9;
+    padding: 10px; /*padding = Borda parte superior do backgroud */
+}
+
+.img-campanha {
+    border: solid 10px #c3c3ae;;
+}
+
+#rodape{
+    text-align: center;
+}
+
+
