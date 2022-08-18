@@ -5,7 +5,7 @@ body {
 
 #principal{
     display: block;
-    width: 900px;
+    width: 900px; /* Largura da div */
     /* border: 1px solid red; */
 }
 
@@ -28,7 +28,7 @@ h3 {
 .conteudo {
 
     background: #E8E8D9;
-    padding: 10px; /*padding = Borda parte superior do backgroud */
+    padding: 10px; /*padding = Espaçamento interno */
 }
 
 .img-campanha {
