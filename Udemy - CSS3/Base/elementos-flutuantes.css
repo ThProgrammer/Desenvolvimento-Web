@@ -1,0 +1,25 @@
+body {
+    background: #f4f4f4;
+}
+
+#principal {
+    width: 920px;
+    /* border: 1px solid red; */
+}
+
+.imagem-galeria {
+    background: grey;
+    width: 265px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+}
+
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+
+}
