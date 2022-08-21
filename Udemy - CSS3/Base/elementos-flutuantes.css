@@ -7,6 +7,11 @@ body {
     /* border: 1px solid red; */
 }
 
+.borda{
+    width: 920px;
+    border: 10px solid red;
+}
+
 .imagem-galeria {
     background: grey;
     width: 265px;
