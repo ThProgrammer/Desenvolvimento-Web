@@ -1,0 +1,120 @@
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+* {
+    margin: 0px;
+    /* border: solid red 1px; */
+}
+
+#topo {
+    background: #F7B600;
+    height: 106;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo {
+    padding: 10px
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#menu {
+    padding: 10px;
+}
+
+#menu a:link, #menu a:visited {
+    color:#FFFFFF;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/* #menu a:visited {
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+} */
+
+#menu a:hover {
+    background-color: white;
+    color: #F7B600;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#principal {
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 677px;
+    float: left;
+    margin-right: 5px;
+}
+
+.titulo-postagem{
+    color: #F7B600;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+.imagem-postagem {
+    background-color: #FFFFFF;
+    border-top: solid 1px #F4F4F4;
+    padding-top: 8px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+#principal a:link, :visited {
+    color: #F7B600; text-decoration: none;
+}
+
+#principal a:hover {
+    text-decoration: underline;
+}
+
+#rodape {
+    clear: both;
+    background: #CCCCCC;
+    text-align: center;
+    padding: 10px;
+}
+
+.janela {
+    width: 230px;
+    float: right;
+    background: #FFFFFF;
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+.conteudo-janela {
+    padding: 10px;
+    border-bottom: 1px #CCCCCC dotted;
+}
+
+.conteudo-janela p{
+    font-size: 0.8em;
+    /* padding: 5px; */
+}
+
+.janela h3 {
+    color: #565656;
+    background-color: #CCCCCC;
+    padding: 5px;
+}
