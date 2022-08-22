@@ -1,0 +1,25 @@
+            
+#conteudo1 {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    position: absolute;
+    z-index: 0;
+}
+
+#conteudo2 {
+    width: 250px;
+    height: 250px;
+    background: blue;
+    position: absolute;
+    z-index: 2;
+}
+
+#conteudo3 {
+    width: 280px;
+    height: 280px;
+    background: green;
+    position: absolute;
+    z-index: 1;
+}
+
