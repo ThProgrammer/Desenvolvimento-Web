@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    /* border: 1px solid blue; */
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    /* padding: 5px 20px; */
+
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px; /* Indentação, como se tivesse dado tab no teclado com tamanho configuravel */
+    line-height: 40px;
+    background: url(arquivos/menu.png) no-repeat left;    
+}
+
+/* São duas imagens coladas numa só, mas redimensionamos pra só aparecer uma, e no estado hover do link trocamos a posição do background */
+
+ul a:hover {
+    background-position: right;
+}
