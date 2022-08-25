@@ -16,11 +16,14 @@ ul a {
     text-decoration: none;
     text-indent: 40px; /* Indentação, como se tivesse dado tab no teclado com tamanho configuravel */
     line-height: 40px;
-    background: url(arquivos/menu.png) no-repeat left;    
+    background: #f7b600 url(arquivos/menu.png) no-repeat left;    
 }
 
 /* São duas imagens coladas numa só, mas redimensionamos pra só aparecer uma, e no estado hover do link trocamos a posição do background */
 
-ul a:hover {
+ul a:hover, .selecionado a { 
+    /* "class=selecionado" usado para marcação - aula 56 */
+    color: white;
     background-position: right;
+    background-color: #f99200;
 }
