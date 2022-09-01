@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Primeiro JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            body {
+                background-color: rgb(121, 121, 201);
+                color: white;
+                font: normal 20px Arial;
+                text-align: center;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <h1>Olá, mundo!</h1>
+        <p>Já me livrei da maldição</p>
+
+        <script>
+            
+            //Prompt sempre retorna um valor string, então é preciso converter para number:
+
+            var n1 = Number.parseFloat(window.prompt("Digite um número.")) 
+            //Number.parseFloat ou parseInt pega o valor recebido e converte para o tipo desejado. Podemos forçar um float a ser int, ou vice versa.
+
+            var n2 = Number(window.prompt("Digite outro número: "))
+            //Number converte automaticamente entre Int e Float com base no número recebido (Se é decimal ou não)
+
+            var soma = n1 + n2
+
+            window.alert(`A soma dos valores é ${soma}.`)
+
+            /*Podemos aplicar as conversões dentro do alert também:
+            window.alert("A soma dos valores é " + Number(n1+n2)) dessa maneira a concatenação não se confunde mesmo sem a variável "soma".*/
+
+            //Conversão number para string:
+            var num = 52
+            var s = String(num)
+            var s2 = num.toString() //As duas maneiras não tem diferença. uma da outra
+            window.alert(`s = ${typeof s} | s2 = ${typeof s2}`)
+            window.alert(typeof String(num)) //Também da pra fazer no próprio print.
+        
+
+        </script>
+
+    </body>
+</html>
