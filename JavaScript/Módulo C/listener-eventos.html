@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Eventos - DOM</title>
+
+    <style>
+        #area {
+            background-color: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="area">
+        Interaja...
+    </div>
+    
+    <script>
+        var a = document.querySelector("div#area")
+        a.addEventListener("click", clicar) // Listener do evento click, executa clicar
+        a.addEventListener("mouseenter", entrar)
+        a.addEventListener("mouseout", sair)
+
+        function clicar() {
+            a.innerText = "clicou!"
+            a.style.background = "red"
+        }
+
+        function entrar() {
+            a.innerText = "Entrou!"
+        }
+
+        function sair() {
+            a.innerText = "Saiu!"
+            a.style.background = "green"
+        }
+
+    </script>
+
+</body>
+
+</html>
