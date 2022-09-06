@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sistema de multas</h1>
+        Velocidade do carro: <input type="number" name="vel" id="vel">Km/h
+        <input type="submit" value="Enviar" onclick="calcular()">
+
+        <div id="result">
+            
+        </div>
+
+        <script>
+            function calcular() {
+                var vel = Number(document.getElementById("vel").value) // value é o valor guardado na caixa de texto, por isso o utilizamos
+                // vel = Number(vel.value)
+                // var result = document.getElementById("result")
+
+                if (vel > 50){
+                    document.getElementById("result").innerHTML = `<p>${vel}km/h é além da velocidade permitida!</p>Você foi <strong>MULTADO<strong>!`
+                }
+                else {
+                    document.querySelector("div#result").innerText = `${vel}km/h está dentro da velocidade permitida! \nDirija com seguraça`
+                }
+            }
+
+
+        </script>
+    </body>
+</html>

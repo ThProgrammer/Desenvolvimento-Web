@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+
+    <style type="text/css">
+        /* #input{
+            text-align: center;
+        } 
+
+        #result p{
+            display: inline;
+            padding: 50px 0px; 
+        } */
+        
+    </style>
+</head>
+
+<body>
+    <div id="input">
+        <h1>Qual seu país de origem?</h1>
+        <input type="text" name="pais" id="pais">
+        <input type="submit" value="Enviar" onclick="nacionalidade()">
+    </div>
+    
+    <div id="caixa-result">
+        <p id="dado-result"></p>
+    </div>
+
+    <script>
+        function nacionalidade(){
+            var pais = document.querySelector("input#pais").value  // value é o valor guardado na caixa de texto, por isso o utilizamos
+            var res = document.querySelector("p#dado-result")
+            res.innerHTML = `Vivendo em <strong>${pais}</strong>,`
+
+            if (pais == "Brasil") {
+                res.innerHTML += " você é <strong>Brasileiro!</strong>"
+            }
+            else {
+                res.innerHTML += " você é <strong>Estrangeiro!</strong>" 
+            }
+        }
+    </script>
+
+</body>
+</html>
