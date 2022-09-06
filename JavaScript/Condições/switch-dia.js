@@ -5,7 +5,8 @@ var hora = agora.getHours()
 var dia;
 var periodo;
 
-if (hora > 11){periodo = "tarde"}
+if (hora > 11) { periodo = "tarde" }
+else if (hora <= 17) { periodo = "tarde"}
 else { periodo = "manhã"}
 
 switch (ndia) {
