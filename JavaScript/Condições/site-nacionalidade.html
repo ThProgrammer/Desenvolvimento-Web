@@ -19,16 +19,18 @@
     </style>
 </head>
 
-<body>
+<body style="text-align: center;">
     <div id="input">
         <h1>Qual seu país de origem?</h1>
         <input type="text" name="pais" id="pais">
         <input type="submit" value="Enviar" onclick="nacionalidade()">
     </div>
     
-    <div id="caixa-result">
+    <div  id="caixa-result">
         <p id="dado-result"></p>
     </div>
+
+    <!-- <img src="https://www.institutomix.com.br/wp-content/uploads/2021/11/Prancheta-1-4.png"> -->
 
     <script>
         function nacionalidade(){
@@ -37,7 +39,7 @@
             res.innerHTML = `Vivendo em <strong>${pais}</strong>,`
 
             if (pais == "Brasil") {
-                res.innerHTML += " você é <strong>Brasileiro!</strong>"
+                res.innerHTML += ' você é <strong>Brasileiro!</strong><br> <img src="https://www.institutomix.com.br/wp-content/uploads/2021/11/Prancheta-1-4.png">"'
             }
             else {
                 res.innerHTML += " você é <strong>Estrangeiro!</strong>" 
