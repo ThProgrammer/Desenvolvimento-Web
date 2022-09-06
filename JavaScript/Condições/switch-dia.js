@@ -1,13 +1,14 @@
 var agora = new Date()
 var ndia = agora.getDay()
 var hora = agora.getHours()
+var mins = agora.getUTCMinutes()
 
 var dia;
 var periodo;
 
-if (hora > 11) { periodo = "tarde" }
+if (hora <= 11) { periodo = "manhã" }
 else if (hora <= 17) { periodo = "tarde"}
-else { periodo = "manhã"}
+else { periodo = "noite"}
 
 switch (ndia) {
     case 0:
@@ -32,4 +33,4 @@ switch (ndia) {
         dia = "Sábado"
         break;
 }
-console.log(`Hoje é ${dia}, ${hora}h da ${periodo}`)
+console.log(`Hoje é ${dia}, ${hora}:${mins} da ${periodo}`)
