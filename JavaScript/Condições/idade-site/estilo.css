@@ -42,10 +42,15 @@ body {
 }
 
 #result-box {
+    text-align: center;
     margin: 8px auto;
     width: 400px;
-    /* height: 600px; */
-    border: 1px solid red;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+
+#result-box img {
+    margin-top: 30px;
 }
 
 #rodapé {

@@ -12,16 +12,22 @@
 
         <div id="principal">
             <div id="input-box">
-                Ano de nascimento: <input style="line-height: 10px;" type="number" id="ano_nascimento"><br>
 
-                Sexo: <input class="gen" type="radio" name="genero" value="M"> 
-                ESCREVER O LABEL
-                <input class="gen" type="radio" name="genero" value="F"> Feminino<br>
+                <p>Ano de nascimento: 
+                    <input style="line-height: 10px;" type="number" id="ano_nascimento">
+                </p>
+
+                <p>Sexo: 
+                    <input type="radio" name="genero" id="M" checked> <!-- Checked é importante para coletar qual caixa está marcada -->
+                    <label for="M">Masculino</label> <!-- Label é um texto para a checkbox, identifica-se qual checkbox pelo #id -->
+
+                    <input type="radio" name="genero" id="F"> 
+                    <label for="F">Feminino</label>
+                </p>
                 <input type="submit" value="Verificar" onclick="idade()">          
             </div>
 
             <div id="result-box">
-                
             </div>
         </div>    
         
@@ -29,6 +35,6 @@
             <p>&copy; ThDev</p>
         </span>
 
-        <script src="idadeteste.js"></script>
+        <script src="idade-final.js"></script>
     </body>
 </html>
