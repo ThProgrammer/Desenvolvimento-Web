@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Verificador de Idade</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="cabecalho"><h1>Verificador de idade</h1></div>
+
+        <div id="principal">
+            <div id="input-box">
+                Ano de nascimento: <input style="line-height: 10px;" type="number" id="ano_nascimento"><br>
+
+                Sexo: <input class="gen" type="radio" name="genero" value="M"> 
+                ESCREVER O LABEL
+                <input class="gen" type="radio" name="genero" value="F"> Feminino<br>
+                <input type="submit" value="Verificar" onclick="idade()">          
+            </div>
+
+            <div id="result-box">
+                
+            </div>
+        </div>    
+        
+        <span id="rodapé">
+            <p>&copy; ThDev</p>
+        </span>
+
+        <script src="idadeteste.js"></script>
+    </body>
+</html>
