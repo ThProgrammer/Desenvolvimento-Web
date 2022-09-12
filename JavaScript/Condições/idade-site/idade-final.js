@@ -53,7 +53,7 @@ function idade() {
             res.innerHTML = `Detectamos um ${fetaria} de ${idade} anos`
             res.appendChild(img) 
             // AQUIIIII, FINALMENTE FUNCIONOOOU! COLOCOU A IMAGEEEEEEEEEEEEEEEEEEEEEEEEEM
-            // APRENDIZADO: Escolher imagem que carrega, criar tag img com createElement, e adicionar a div com *elemento.*appendChild(var)*
+            // APRENDIZADO: Escolher imagem que carrega, criar tag img com createElement, e adicionar na div com *elemento.*appendChild(var)*
 
         }
 

@@ -13,19 +13,26 @@ function contagem() {
         inicio = Number(inicio); fim = Number(fim); passo = Number(passo)
 
         //Validação de coerência da contagem:
+        if (passo == 0) {
+            window.alert("Passo Inválido! Considerando passo = 1..."); passo = 1;
+        }
+
+        //Contagem Regressiva:
         if (inicio > fim) {
             for (var i = inicio; i >= fim; i -= passo){
                 contagem += `${i} 👉`
             }
         }
 
+        //Contagem Progressiva:
         else {
             for (var i = inicio; i <= fim; i += passo) {
-                contagem += `${i} 👉`
+                contagem += `${i} 👉 `
             }
         }
 
-        contagem += "🏁"
+    //Saída de dados:
+        contagem += " 🏁"
         res.innerHTML = contagem
     }
 
