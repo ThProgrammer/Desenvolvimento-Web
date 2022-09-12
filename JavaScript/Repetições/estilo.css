@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: rgb(70, 142, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body h1 {
+    font-size: 3em;
+}
+
+#principal {
+    height: 520px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 20px;
+
+    color: black;
+    text-align: left;
+    font-size: 23px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.796);
+}
+
+/* #input-box input:submit {
+     padding: 80px 
+}*/
+
+#result-box {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#result-box img {
+    margin-top: 10px;
+    width:300px;
+    height:250px;
+}
+
+#rodapé {
+    font-size: 20px;
+}
