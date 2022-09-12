@@ -1,4 +1,8 @@
-for (var i = 0; i <= 5; i++) {
-    console.log(`Passo: ${i}`)
+var inicio = 5
+var fim = 12
+var passo = 2
+
+for (var i = inicio; i <= fim; i+=passo) {
+    console.log(`${i}👉`)
 }
-console.log("Acabou")
+console.log("🏁")
