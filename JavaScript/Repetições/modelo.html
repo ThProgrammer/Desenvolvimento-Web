@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Modelo</title>
+        <title>Exercício - Contando</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="estilo.css" rel="stylesheet">
     </head>
     <body>
-        <header><h1>Exercício - Modelo</h1></header>
+        <header><h1>Vamos contar!</h1></header>
 
         <div id="principal">
             <div id="input-box">
-                <p>Input: <input type="text" id="txt"></p>
+                <p>Início: <input type="number" id="iniciocount"></p>
             
-                <p>Option: <input type="radio" name="ratio" id="ratio1"> <label for="ratio1">Option 1</label>
-                <input type="radio" name="ratio" id="ratio2"> <label for="ratio2">Option 2</label> </p>
-                <input type="submit" value="Verificar">
+                <p>Fim: <input type="number" id="fimcount"></p>
+
+                <p>Passo: <input type="number" id="passocount"></p>
+
+                <input type="submit" value="Verificar" onclick="contagem()">
             </div>
 
             <div id="result-box">
-                <p id="res">Result </p>
-                <img id="img" src="https://i.pinimg.com/originals/d4/7e/9e/d47e9e4a28894bfbd416b4f53ca15b95.jpg">
+                <p id="res">Preparando a contagem...</p>
             </div>
+
+            <script src="contagem.js"></script>
         </div>
 
         <span id="rodapé"><p><strong>&copy; ThDev</strong></p></span>

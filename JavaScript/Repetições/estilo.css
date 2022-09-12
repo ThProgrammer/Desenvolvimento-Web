@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background: rgb(70, 142, 236);
+    /* background: rgb(70, 142, 236);*/
+    background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -10,7 +11,7 @@ body h1 {
 }
 
 #principal {
-    height: 530px;
+    height: auto;
     width: 600px;
     background-color: white;
     border-radius: 20px;
@@ -30,8 +31,7 @@ body h1 {
 
 #result-box {
     margin-top: 30px;
-    text-align: center;
-
+    /* text-align: center; */
 }
 
 #result-box img {
