@@ -4,7 +4,7 @@ function contagem() {
     var inicio = document.querySelector("input#iniciocount").value
     var fim = document.querySelector("input#fimcount").value
     var passo = document.querySelector("input#passocount").value
-    var contagem = "";
+    var contagem = ""; // variável que receberá a contagem em String
 
     // Validação de campos preenchidos:
     if (inicio.length != 0 && fim.length != 0 && passo.length != 0){
