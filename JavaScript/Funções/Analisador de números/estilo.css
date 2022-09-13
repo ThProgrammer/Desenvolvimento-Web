@@ -10,12 +10,12 @@ header h1 {
 }
 
 #principal {
-    height: 530px;
+    /* height: 530px; */
     width: 600px;
     background-color: white;
     border-radius: 20px;
     margin: 0px auto;
-    padding: 20px;
+    padding: 13px 13px 1px;
 
     color: black;
     text-align: left;
@@ -24,14 +24,24 @@ header h1 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.796);
 }
 
-/* #input-box input:submit {
-     padding: 80px 
-}*/
+#input-box select {
+    width: 150px;
+    display: block; 
+    margin: 5px;
+}
+
 
 #result-box {
+    /* height: 220px; */
+    /* border: 1px solid red; */
+    font-size: 18px;
     margin-top: 30px;
-    text-align: center;
+    /* text-align: center; */
+}
 
+.botao {
+    margin: 5px 5px;
+    text-align: center;
 }
 
 #result-box img {

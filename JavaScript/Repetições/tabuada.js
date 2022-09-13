@@ -6,10 +6,10 @@ function tabuada() { //TENTAR FAZER COM UL LI ALGUMA HORA
         num = Number(num);
         tabuada.innerHTML = ""
         for (var i = 1; i <= 10; i++) {
-            var item = document.createElement("option")
+            var item = document.createElement("option") // Criar option
             item.text = `${num} x ${i} = ${num*i}`
             item.value = `tabuada${i}` // Coisa de Banco de dados, ainda não sei...
-            tabuada.appendChild(item)
+            tabuada.appendChild(item) // Colocando o option dentro do select
         }
     }
 
